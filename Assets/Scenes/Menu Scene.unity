@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999946, b: 0.99999946, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -312,6 +312,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 89a751436a9c5fd42a069d485b6aebf7,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 89a751436a9c5fd42a069d485b6aebf7,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5757518
       objectReference: {fileID: 0}
@@ -327,6 +332,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 89a751436a9c5fd42a069d485b6aebf7,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.20942137
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 89a751436a9c5fd42a069d485b6aebf7,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.008790705
       objectReference: {fileID: 0}
@@ -339,16 +349,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0.041007593
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 89a751436a9c5fd42a069d485b6aebf7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.20942137
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 89a751436a9c5fd42a069d485b6aebf7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 89a751436a9c5fd42a069d485b6aebf7,
         type: 3}
@@ -450,6 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -968,7 +969,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.6981132, g: 0.58944464, b: 0.58944464, a: 1}
+  m_Color: {r: 0.49056602, g: 0.27999285, b: 0.27999285, a: 1}
   m_Intensity: 0.88
   m_Range: 10
   m_SpotAngle: 30
@@ -1016,6 +1017,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &343401860
@@ -1060,8 +1062,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.87058824, b: 0.19607843, a: 1}
-  m_Intensity: 1.2
+  m_Color: {r: 0.05660379, g: 0.056421746, b: 0.055268794, a: 1}
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1108,6 +1110,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &537762410
@@ -1354,6 +1357,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &658980274
 Canvas:
   m_ObjectHideFlags: 0
@@ -1448,6 +1452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1580,6 +1585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1724,6 +1730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1962,6 +1969,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 14aa79d46c620a54393f4eac9186c1dd,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14aa79d46c620a54393f4eac9186c1dd,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8863103
       objectReference: {fileID: 0}
@@ -1977,6 +1989,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14aa79d46c620a54393f4eac9186c1dd,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.39415386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 14aa79d46c620a54393f4eac9186c1dd,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.021334356
       objectReference: {fileID: 0}
@@ -1989,16 +2006,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.0009272116
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 14aa79d46c620a54393f4eac9186c1dd,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.39415386
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 14aa79d46c620a54393f4eac9186c1dd,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 14aa79d46c620a54393f4eac9186c1dd,
         type: 3}
@@ -2098,6 +2105,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &881728875
@@ -2324,6 +2332,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &935337959
@@ -2581,6 +2590,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &1079636113
 Canvas:
   m_ObjectHideFlags: 0
@@ -2760,6 +2770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3002,6 +3013,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1217987257
@@ -3094,6 +3106,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1265392107
@@ -3163,6 +3176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3535,6 +3549,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1844540687

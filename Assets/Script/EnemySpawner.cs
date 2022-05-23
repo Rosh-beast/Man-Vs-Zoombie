@@ -26,14 +26,7 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // exit if there is a game manager and the game is over
-       /* if (GameManager.gm)
-        {
-            if (GameManager.gm.gameIsOver)
-                return;
-        } */
-
-        // if time to spawn a new game object
+      
         if (Time.time >= nextSpawnTime)
         {
             // Spawn the game object through function below
